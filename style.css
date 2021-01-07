@@ -1,3 +1,21 @@
 p.navegador {color: blue;}
 p.funcionalidad {color: green;}
 p.web {color: red;}
+
+p.pokemon {
+    background: #02B1FC;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+  }
+
+  #pokemon {
+    background:#641634;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+  }
