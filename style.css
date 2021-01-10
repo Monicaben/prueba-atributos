@@ -23,3 +23,8 @@ p.pokemon {
 
 body {font-size: 4;font-style: italic;}
 
+.table1 {border: red 2px solid;}
+.blue {border: blue 3px solid;}
+.table3 {border: green 2px solid;text-align: center;}
+.table {border: green 2px solid;text-align: center;padding-left: 80px;padding-right: 80px;}
+
