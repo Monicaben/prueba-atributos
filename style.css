@@ -20,3 +20,5 @@ p.pokemon {
     font-size: 2rem;
   }
   h3 {color: rgb(30, 26, 230);}
+
+body {font-size: 4;font-style: italic;}
