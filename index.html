@@ -29,9 +29,9 @@
     <bloque 3 function1()>
     <h3>Práctica bloque 3</h3>
     
-    Introduce nombre <input type="text" id="nombre">
+    Introduce nombre <input type="text" id="nombre"> 
     Introduce apellido 1 <input type="text" id="apellido" onchange="function1()">
- 
+
     
     <script>
         function function1(){
@@ -41,9 +41,14 @@
         }
     </script> 
 
-
+    <p><center>Párrafo<span style="color: red;">rojo</span></center></p>
            
-
-
+    Introduce la fecha  <input type="text" id="fecha" onchange="function1()">
+    <script>
+    function function1(){
+        var fecha = document.getElementById("fecha").value;
+        alert ('Bienvenido ' + 'Hoy es ' + fecha )
+    }
+    </script>
 </body>
 </html>
